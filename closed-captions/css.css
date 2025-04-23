@@ -6,6 +6,11 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 #closed-captions p {
+	/* margin: auto; */
+
+	left: 50%;
+	transform: translateX(-50%);
+
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
@@ -21,7 +26,9 @@ Feel free to adjust the defaults to your needs.
 }
 
 p {
-	font: 1.2em sans-serif;
+	padding: 0.5em;
+	text-align: center;
+	font: 1.6em sans-serif;
 	margin: auto;
 }
 
@@ -44,7 +51,7 @@ The first paragraph, with extended timing for
 You probably want to change the styling.
 ********************************************** */
 .p0 span {
-	opacity: 0;
+	opacity: 0.5;
 	font-family: sans-serif;
 }
 
@@ -89,9 +96,16 @@ You probably want to change the styling.
 	font-weight: 400;
 }
 
+.voice4 {
+	background: blueviolet;
+	color: white;
+
+	opacity: .5;
+}
+
 /* we think its time to stop */
 .p2 span {
-	opacity: 0;
+	opacity: 0.5;
 }
 
 .p2 span:nth-of-type(1), .p2 span:nth-of-type(2), .p2 span:nth-of-type(3), .p2 span:nth-of-type(4), .p2 span:nth-of-type(5) {
@@ -116,7 +130,7 @@ You probably want to change the styling.
 }
 
 .p3 span {
-	opacity: 0;
+	opacity: 0.5;
 }
 
 .p3.on span:nth-of-type(1), .p3.on span:nth-of-type(2) {
@@ -142,6 +156,18 @@ You probably want to change the styling.
 	opacity: 1;
 }
 
+.p4.on span:nth-of-type(2) {
+	opacity: .5;
+}
+
+.p15.on span:nth-of-type(2), .p15.on span:nth-of-type(3), .p15.on span:nth-of-type(4) {
+	opacity: 0.5;
+}
+
+.explain-text {
+	font-size: 1.6em;
+}
+
 /* .p4.on~#video-mask {
 	box-shadow: 0em 0em 8em rgb(33, 0, 179);
 } */
@@ -165,9 +191,261 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
+	transition: 1s ease;
 	background: #1e1e1e;
 	color: white;
 }
+
+@keyframes soundPulse {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse2 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse3 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse4 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse5 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse6 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse7 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse8 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse9 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse10 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse11 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse12 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse13 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse14 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse15 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse16 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse17 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse18 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse19 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse20 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse21 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+@keyframes soundPulse22 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+
+	}
+}
+
+
+
+
+
+
+
+
+
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 #video-mask {
@@ -178,6 +456,109 @@ Sounds.
 	box-shadow: 0em 0em 8em rgb(0, 81, 255);
 }
 
+.sound3 #video-mask {
+	animation: soundPulse 1s;
+}
+
+.sound4 #video-mask {
+	animation: soundPulse2 1s;
+
+}
+
+.sound5 #video-mask {
+
+	animation: soundPulse3 1s;
+}
+
+.sound6 #video-mask {
+
+	animation: soundPulse4 1s;
+}
+
+.sound7 #video-mask {
+
+	animation: soundPulse5 1s;
+}
+
+.sound8 #video-mask {
+
+	animation: soundPulse6 1s;
+}
+
+.sound9 #video-mask {
+
+	animation: soundPulse7 1s;
+}
+
+.sound10 #video-mask {
+
+	animation: soundPulse8 1s;
+}
+
+.sound11 #video-mask {
+
+	animation: soundPulse9 1s;
+}
+
+.sound12 #video-mask {
+
+	animation: soundPulse10 1s;
+}
+
+.sound13 #video-mask {
+
+	animation: soundPulse11 1s;
+}
+
+.sound14 #video-mask {
+
+	animation: soundPulse12 1s;
+}
+
+.sound15 #video-mask {
+
+	animation: soundPulse13 1s;
+}
+
+.sound16 #video-mask {
+
+	animation: soundPulse14 1s;
+}
+
+.sound17 #video-mask {
+
+	animation: soundPulse15 1s;
+}
+
+.sound18 #video-mask {
+
+	animation: soundPulse16 1s;
+}
+
+.sound19 #video-mask {
+
+	animation: soundPulse17 1s;
+}
+
+.sound20 #video-mask {
+
+	animation: soundPulse18 1s;
+}
+
+.sound21 #video-mask {
+
+	animation: soundPulse19 1s;
+}
+
+.sound22 #video-mask {
+
+	animation: soundPulse20 1s;
+}
+
+.sound23 #video-mask {
+
+	animation: soundPulse21 1s;
+}
 
 /* **********************************************
 Basic layout.
