@@ -26,19 +26,6 @@ De reden dat ik deze clip heb gekozen is omdat er meerdere personen praten, en e
 
 Er zijn 4 testmomenten waarop we Darice mogen interviewen en ideeën delen.
 
-#### Ontwikkeling
-
-Voor de ontwikkeling heb ik gebruik gemaakt van een repository die mijn docent Vasilis voorheen heeft gemaakt, deze heb ik geforkt en aangepast voor mijn project.
-De repo is een Youtube embed met pauzerende subtitles, timestamps voor subtitles en timestamps voor geluiden. Dit was ideaal voor mijn project.
-
-[Bron fork repo](https://github.com/cmda-minor-web/web-typography-22-23)
-
-
-Eerst heb ik op Youtube grondig zitten zoeken naar welke clip ik zou moeten gebruiken, daarna heb ik de audioscript (.srt bestand) gevonden waardoor ik de subtitles en de timestamps er van had.
-Mijn doel hier was om een redelijk stabiele basis te tonen in de week 2 test moment.
-
-[Uitgekozen clip](https://www.youtube.com/watch?v=eCZqAzpAZB4)
-
 #### Probleemstellingen
 
 - Als er meerdere mensen praten is het vaak moeilijk te volgen wie aan het woord is, vooral als de camera gericht is op een ander iemand.
@@ -47,13 +34,42 @@ Mijn doel hier was om een redelijk stabiele basis te tonen in de week 2 test mom
 - Geluiden in de omgeving missen, (bv. Horror films zijn hierdoor vaak gokken wat er gebeurd.)
 - Het lezen van de captions en bekijken van het beeld is moeilijk omdat de captions soms te snel al weer weg zijn
 - Geen indicatie hebben van wat voor emotie een nummer kan geven.
-- Onnatuurlijke zinnen (bv. geen "uhh" etc.)
+- Onnatuurlijke zinnen (bv. geen "uhh" etc. en je leest maar op 1 tempo.)
 - Hemianopsie (Darice heeft een minder visie aan de linker kant van haar zicht.)
 - Het beeld is soms te groot waardoor de subtitles ver van het beeld afstaan.
 
-Dit zijn de grootste problemen die Darice ervaart vanuit het interviewen.
+Dit zijn de grootste problemen die Darice ervaart vanuit de interviews.
+
+#### Ontwikkeling
+
+Voor de ontwikkeling heb ik gebruik gemaakt van een repository die mijn docent Vasilis voorheen heeft gemaakt, deze heb ik geforkt en aangepast voor mijn project.
+De repo is een Youtube embed met pauzerende subtitles, timestamps voor subtitles en timestamps voor geluiden. Dit was ideaal voor mijn project.
+
+[Bron fork repo](https://github.com/cmda-minor-web/web-typography-22-23)
+
+Voortgang week 1
+
+![Week1](https://github.com/user-attachments/assets/31ed2dfb-ab4c-4867-9754-6ed2968d2518)
+
+Ik heb hier captions toegevoegd en een begin gemaakt aan de timestamps.
+
+Eerst heb ik op Youtube grondig zitten zoeken naar welke clip ik zou moeten gebruiken, daarna heb ik de audioscript (.srt bestand) gevonden waardoor ik de subtitles en de timestamps er van had.
+Mijn doel hier was om een redelijk stabiele basis te tonen in de week 2 test moment.
+
+[Uitgekozen clip](https://www.youtube.com/watch?v=eCZqAzpAZB4)
 
 ## Week 2
+
+Voortgang week 2
+
+![afbeelding](https://github.com/user-attachments/assets/282f2318-7145-4c50-8bf2-914b712a1422)
+
+Ik heb hier de personen aangeduid in verschillende kleuren
+
+
+#### Ontwikkeling
+
+
 
 
 
