@@ -1,5 +1,55 @@
 # HCD
-Test Persoon: <b>Darice</b>
+Testpersoon: <b>Darice</b>
+
+[Youtube showcase](https://www.youtube.com/watch?v=9l1MLsNj_5o)
+
+## Week 1
+
+### Onderzoek
+#### Introductie
+
+Het vak Human Centered Design is gericht op het ontwerpen voor een testpersoon, deze testpersoon heeft een beperking, of dat nou slecht werkende ogen zijn of compleet niks kunnen horen ligt aan de testpersoon.
+In mijn geval heb ik de kans gekregen om met Darice aan de slag te gaan.
+
+Darice is op 27 jarige leeftijd haar gehoor kwijtgeraakt, waardoor ze wel voorheen wist hoe ze woorden moet uitspreken door geheugen van vroeger. Ook heeft Darice slecht zicht met haar linker oog, waardoor er voor haar soms nog wat dingen over het hoofd wordt gezien.
+Darice die wilt graag mee kunnen genieten van een film, inclusief het geluid en muziek. Darice vind dat er weinig rekening wordt gehouden met slechthorende mensen en de subtitles zoals "*music starts playing*" niet genoeg is het gevoel te erkennen die het muziek je geeft bijvoorbeeld.
+
+Ook zijn er nog andere pijnpunten, zoals bij closed captions waar er moeilijk bij valt te houden wie er praat als diegene niet in beeld is. Sommige emoties zoals verdriet is soms ook moeilijk te begrijpen doordat ze niet meekrijgt of iemand een trillende stem heeft of als er iemand bijvoorbeeld sarcastisch is. Darice geeft ook aan dat de subtitles vaak te snel verdwijnen waardoor je eigenlijk of alleen het beeld ziet of alleen de tekst. Mensen zonder gehoor die kunnen maar op 1 punt tegelijk focussen, waardoor als er meerdere dingen tegelijk gebeurt op het beeld, je de ondertiteling vaak mist.
+
+#### Opdracht
+
+Ik ga voor Darice een clip van een film moeten uitwerken, waar zij ook kan begrijpen wat voor gevoel en ritme audio kan geven. En waar duidelijk onderscheid in wie praat is te zien. Darice die gaf aan dat ze de Bims podcast of Odd Thomas wel zou uitgewerkt willen zien worden en daarom heb ik gekozen voor Odd Thomas.
+
+De reden dat ik deze clip heb gekozen is omdat er meerdere personen praten, en er veel emotie is in de scene die ik wil laten zien. Ik moet zorgen dat deze film kijken voor Darice een betere UX is voor haar en makkelijker te volgen is.
+
+Er zijn 4 testmomenten waarop we Darice mogen interviewen en ideeën delen.
+
+### Ontwikkeling
+
+Voor de ontwikkeling heb ik gebruik gemaakt van een repository die Vasilis voorheen heeft gemaakt, deze heb ik geforkt en aangepast voor mijn project.
+De repo is een Youtube embed met pauzerende subtitles, timestamps voor subtitles en timestamps voor geluiden. Dit was ideaal voor mijn project.
+
+Eerst heb ik op Youtube grondig zitten zoeken naar welke clip ik zou moeten gebruiken, daarna heb ik de audioscript (.srt bestand) gevonden waardoor ik de subtitles en de timestamps er van had.
+Mijn doel hier was om een redelijk verwerkte basis te tonen in de week 2 test moment.
+
+
+<details>
+  <summary>
+    Week 2
+  </summary>
+</details>
+
+<details>
+  <summary>
+    Week 3
+  </summary>
+</details>
+
+<details>
+  <summary>
+    Week 3
+  </summary>
+</details>
 
 
 # Web Typography, 2020/2021
