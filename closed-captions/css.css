@@ -1,3 +1,32 @@
+@font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/MonaSans-Regular.ttf') format('truetype');
+	font-weight: 400;
+  }
+
+  @font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/MonaSans-Light.ttf') format('truetype');
+	font-weight: 300;
+  }
+  @font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/MonaSans-Medium.ttf') format('truetype');
+	font-weight: 500;
+  }
+
+  @font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/MonaSans-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+  }
+
+  @font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/MonaSans-Bold.ttf') format('truetype');
+	font-weight: 700;
+  }
+
 /* **********************************************
 Basic mechanics
 Hide all paragraphs by default
@@ -14,6 +43,7 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+
 }
 
 #closed-captions .on {
@@ -30,6 +60,8 @@ p {
 	text-align: center;
 	font: 1.6em sans-serif;
 	margin: auto;
+
+	font-family: 'MonaSans', sans-serif;
 }
 
 .voice1 {
@@ -157,15 +189,28 @@ You probably want to change the styling.
 }
 
 .p4.on span:nth-of-type(2) {
-	opacity: .5;
+	/* opacity: .5; */
 }
 
 .p15.on span:nth-of-type(2), .p15.on span:nth-of-type(3), .p15.on span:nth-of-type(4) {
-	opacity: 0.5;
+	/* opacity: 0.5; */
 }
 
 .explain-text {
+	margin-top: -2.4em;
 	font-size: 1.6em;
+
+}
+
+.piano {
+	margin-top: -2.4em;
+	color: rgb(99, 123, 255);
+	offset: 2px white solid;
+	font-weight: 500;
+	transition: 1s;
+
+	text-shadow: 0px 0px .1em black;
+
 }
 
 /* .p4.on~#video-mask {
@@ -195,6 +240,10 @@ Sounds.
 	background: #1e1e1e;
 	color: white;
 }
+
+
+
+/* PIANO KEYFRAMES 🎹 */
 
 @keyframes soundPulse {
 	0% {
@@ -438,14 +487,914 @@ Sounds.
 	}
 }
 
+@keyframes soundPulse23 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse24 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse25 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse26 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse27 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse28 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse29 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse30 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse31 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse32 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse33 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse34 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse35 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse36 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse37 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse38 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse39 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse40 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse41 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse42 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse43 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse44 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse45 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse46 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse47 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse48 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse49 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse50 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse51 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse52 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse53 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse54 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse55 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse56 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse57 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse58 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse59 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse60 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse61 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse62 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse63 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse64 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse65 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse66 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse67 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse68 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse69 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse70 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse71 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse72 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse73 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse74 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse75 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse76 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse77 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse78 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse79 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse80 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse81 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse82 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse83 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse84 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse85 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse86 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse87 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse88 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse89 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse90 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse91 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse92 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse93 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse94 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse95 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse96 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse97 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse98 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse99 {
+	0% {
+		box-shadow: 0em 0em 16em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse100 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse101 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse102 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse103 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse104 {
+	0% {
+		box-shadow: 0em 0em 32em rgb(0, 81, 255);
+	}
+
+	100% {
+		box-shadow: 0em 0em 8em rgb(0, 81, 255);
+	}
+}
+
+@keyframes soundPulse105 {
+	0% { box-shadow: 0em 0em 32em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse106 {
+	0% { box-shadow: 0em 0em 64em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse107 {
+	0% { box-shadow: 0em 0em 16em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse108 {
+	0% { box-shadow: 0em 0em 16em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse109 {
+	0% { box-shadow: 0em 0em 16em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
 
 
+@keyframes soundPulse110 {
+	0% { box-shadow: 0em 0em 16em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse111 {
+	0% { box-shadow: 0em 0em 64em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse112 {
+	0% { box-shadow: 0em 0em 32em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
 
 
+@keyframes soundPulse113 {
+	0% { box-shadow: 0em 0em 32em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse114 {
+	0% { box-shadow: 0em 0em 32em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse115 {
+	0% { box-shadow: 0em 0em 32em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse116 {
+	0% { box-shadow: 0em 0em 32em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse117 {
+	0% { box-shadow: 0em 0em 16em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse118 {
+	0% { box-shadow: 0em 0em 16em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
+
+@keyframes soundPulse119 {
+	0% { box-shadow: 0em 0em 16em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
 
 
+@keyframes soundPulse120 {
+	0% { box-shadow: 0em 0em 16em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
 
 
+@keyframes soundPulse121 {
+	0% { box-shadow: 0em 0em 16em rgb(0, 81, 255); }
+	100% { box-shadow: 0em 0em 8em rgb(0, 81, 255); }
+}
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 #video-mask {
@@ -558,6 +1507,367 @@ Sounds.
 .sound23 #video-mask {
 
 	animation: soundPulse21 1s;
+}
+
+.sound24 #video-mask {
+
+	animation: soundPulse22 1s;
+}
+
+.sound25 #video-mask {
+
+	animation: soundPulse23 1s;
+}
+
+.sound26 #video-mask {
+
+	animation: soundPulse24 1s;
+}
+
+.sound27 #video-mask {
+	animation: soundPulse25 1s;
+}
+
+.sound28 #video-mask {
+	animation: soundPulse26 1s;
+}
+
+.sound29 #video-mask {
+	animation: soundPulse27 1s;
+}
+
+.sound30 #video-mask {
+	animation: soundPulse28 1s;
+}
+
+.sound31 #video-mask {
+	animation: soundPulse29 1s;
+}
+
+.sound32 #video-mask {
+	animation: soundPulse30 1s;
+}
+
+.sound33 #video-mask {
+	animation: soundPulse31 1s;
+}
+
+.sound34 #video-mask {
+	animation: soundPulse32 1s;
+}
+
+.sound35 #video-mask {
+	animation: soundPulse33 1s;
+}
+
+.sound36 #video-mask {
+	animation: soundPulse34 1s;
+}
+
+.sound37 #video-mask {
+	animation: soundPulse35 1s;
+}
+
+.sound38 #video-mask {
+	animation: soundPulse36 1s;
+}
+
+.sound39 #video-mask {
+	animation: soundPulse37 1s;
+}
+
+.sound40 #video-mask {
+	animation: soundPulse38 1s;
+}
+
+.sound41 #video-mask {
+	animation: soundPulse39 1s;
+}
+
+.sound42 #video-mask {
+	animation: soundPulse40 1s;
+}
+
+.sound43 #video-mask {
+	animation: soundPulse41 1s;
+}
+
+
+.sound44 #video-mask {
+	animation: soundPulse42 1s;
+}
+
+.sound45 #video-mask {
+	animation: soundPulse43 1s;
+}
+
+.sound46 #video-mask {
+	animation: soundPulse44 1s;
+}
+
+.sound47 #video-mask {
+	animation: soundPulse45 1s;
+}
+
+.sound48 #video-mask {
+	animation: soundPulse46 1s;
+}
+
+.sound49 #video-mask {
+	animation: soundPulse47 1s;
+}
+
+.sound50 #video-mask {
+	animation: soundPulse48 1s;
+}
+
+.sound51 #video-mask {
+	animation: soundPulse49 1s;
+}
+
+.sound52 #video-mask {
+	animation: soundPulse50 1s;
+}
+
+.sound53 #video-mask {
+	animation: soundPulse51 1s;
+}
+.sound54 #video-mask {
+	animation: soundPulse52 1s;
+}
+.sound55 #video-mask {
+	animation: soundPulse53 1s;
+}
+.sound56 #video-mask {
+	animation: soundPulse54 1s;
+}
+.sound57 #video-mask {
+	animation: soundPulse55 1s;
+}
+.sound58 #video-mask {
+	animation: soundPulse56 1s;
+}
+.sound59 #video-mask {
+	animation: soundPulse57 1s;
+}
+.sound60 #video-mask {
+	animation: soundPulse58 1s;
+}
+.sound61 #video-mask {
+	animation: soundPulse59 1s;
+}
+.sound62 #video-mask {
+	animation: soundPulse60 1s;
+}
+.sound63 #video-mask {
+	animation: soundPulse61 1s;
+}
+.sound64 #video-mask {
+	animation: soundPulse62 1s;
+}
+.sound65 #video-mask {
+	animation: soundPulse63 1s;
+}
+.sound66 #video-mask {
+	animation: soundPulse64 1s;
+}
+.sound67 #video-mask {
+	animation: soundPulse65 1s;
+}
+.sound68 #video-mask {
+	animation: soundPulse66 1s;
+}
+.sound69 #video-mask {
+	animation: soundPulse67 1s;
+}
+.sound70 #video-mask {
+	animation: soundPulse68 1s;
+}
+.sound71 #video-mask {
+	animation: soundPulse69 1s;
+}
+.sound72 #video-mask {
+	animation: soundPulse70 1s;
+}
+.sound73 #video-mask {
+	animation: soundPulse71 1s;
+}
+.sound74 #video-mask {
+	animation: soundPulse72 1s;
+}
+.sound75 #video-mask {
+	animation: soundPulse73 1s;
+}
+.sound76 #video-mask {
+	animation: soundPulse74 1s;
+}
+.sound77 #video-mask {
+	animation: soundPulse75 1s;
+}
+.sound78 #video-mask {
+	animation: soundPulse76 1s;
+}
+.sound79 #video-mask {
+	animation: soundPulse77 1s;
+}
+.sound80 #video-mask {
+	animation: soundPulse78 1s;
+}
+.sound81 #video-mask {
+	animation: soundPulse79 1s;
+}
+.sound82 #video-mask {
+	animation: soundPulse80 1s;
+}
+.sound83 #video-mask {
+	animation: soundPulse81 1s;
+}
+.sound84 #video-mask {
+	animation: soundPulse82 1s;
+}
+.sound85 #video-mask {
+	animation: soundPulse83 1s;
+}
+.sound86 #video-mask {
+	animation: soundPulse84 1s;
+}
+.sound87 #video-mask {
+	animation: soundPulse85 1s;
+}
+.sound88 #video-mask {
+	animation: soundPulse86 1s;
+}
+.sound89 #video-mask {
+	animation: soundPulse87 1s;
+}
+.sound90 #video-mask {
+	animation: soundPulse88 1s;
+}
+.sound91 #video-mask {
+	animation: soundPulse89 1s;
+}
+.sound92 #video-mask {
+	animation: soundPulse90 1s;
+}
+.sound93 #video-mask {
+	animation: soundPulse91 1s;
+}
+.sound94 #video-mask {
+	animation: soundPulse92 1s;
+}
+.sound95 #video-mask {
+	animation: soundPulse93 1s;
+}
+.sound96 #video-mask {
+	animation: soundPulse94 1s;
+}
+
+.sound97 #video-mask {
+	animation: soundPulse95 1s;
+}
+
+.sound98 #video-mask {
+	animation: soundPulse96 1s;
+}
+
+.sound99 #video-mask {
+	animation: soundPulse97 1s;
+}
+
+.sound100 #video-mask {
+	animation: soundPulse98 1s;
+}
+
+.sound101 #video-mask {
+	animation: soundPulse99 1s;
+}
+
+.sound102 #video-mask {
+	animation: soundPulse100 1s;
+}
+
+.sound103 #video-mask {
+	animation: soundPulse101 1s;
+}
+
+.sound104 #video-mask {
+	animation: soundPulse102 1s;
+}
+
+.sound105 #video-mask {
+	animation: soundPulse103 1s;
+}
+
+.sound106 #video-mask {
+	animation: soundPulse104 1s;
+}
+
+.sound107 #video-mask {
+	animation: soundPulse105 1s;
+}
+
+.sound108 #video-mask {
+	animation: soundPulse106 1s;
+}
+
+.sound109 #video-mask {
+	animation: soundPulse107 1s;
+}
+
+.sound110 #video-mask {
+	animation: soundPulse108 1s;
+}
+
+.sound111 #video-mask {
+	animation: soundPulse109 1s;
+}
+
+.sound112 #video-mask {
+	animation: soundPulse110 1s;
+}
+
+.sound113 #video-mask {
+	animation: soundPulse111 1s;
+}
+
+.sound114 #video-mask {
+	animation: soundPulse112 1s;
+}
+
+.sound115 #video-mask {
+	animation: soundPulse113 1s;
+}
+
+.sound116 #video-mask {
+	animation: soundPulse114 1s;
+}
+
+.sound117 #video-mask {
+	animation: soundPulse115 1s;
+}
+
+.sound118 #video-mask {
+	animation: soundPulse116 1s;
+}
+
+.sound119 #video-mask {
+	animation: soundPulse117 1s;
+}
+
+.sound120 #video-mask {
+	animation: soundPulse118 1s;
+}
+
+.sound121 #video-mask {
+	animation: soundPulse119 1s;
+}
+
+.sound122 #video-mask {
+	animation: soundPulse120 1s;
+}
+
+.sound123 #video-mask {
+	animation: soundPulse121 1s;
 }
 
 /* **********************************************
