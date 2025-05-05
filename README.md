@@ -167,6 +167,9 @@ Uitbreiding beatpulses & meerdere variaties van de beatpulse.
 
 Explain text blauw gemaakt zodat de link tussen de muziek en het achtergrond licht duidelijk te maken.
 
+![ezgif com-optimize(3)](https://github.com/user-attachments/assets/f49d30b7-d2be-4f4c-8619-7e207123a32b)
+
+
 #### Bevindingen
 
 Darice vind het goed dat ik grotere pulses heb toegevoegd en *sad piano music intensifies* wanneer de pulses groter worden, zo heeft ze het gevoel dat het intenser begint te worden. Ze vind het algeheel een mooi rond product en vindt dat ik goed naar haar feedback heb geluistert voor haar gevoel, en ook de mijne :)
