@@ -62,13 +62,37 @@ Mijn doel hier was om een redelijk stabiele basis te tonen in de week 2 test mom
 
 Voortgang week 2
 
+Darice vertelde dat ze soms moeite had met het begrijpen wie er aan het woord is, vooral als degene die praat niet op beeld is. Ik heb er voor gekozen om de personen een eigen achtergrond kleur te geven in de ondertiteling, zodat ze goed scheidbaar van elkaar zijn. Door deze kleuren consistent aan te houden zou er geen verwarring ontstaan. Wel is hier belangrijk dat het contrast goed zichtbaar is met de achtergrondkleuren en de tekst.
+
 ![afbeelding](https://github.com/user-attachments/assets/282f2318-7145-4c50-8bf2-914b712a1422)
 
-Ik heb hier de personen aangeduid in verschillende kleuren
+Vorige week kreeg ik een probleem te horen waar mensen met gehoorproblemen mee kamperen, namelijk dat ze maar op 1 punt tegelijk kunnen concentreren, waardoor het lezen van de ondertiteling en kijken wat er gaande is op het beeld een beetje frustrerend wordt, vooral als het snel voorbij gaat. Hierdoor heb ik de volgende test opgezet:
+
+Ik test hier de contrast ratio, positionering en grootte van de ondertiteling.
+
+![image](https://github.com/user-attachments/assets/ed66a841-e045-44b5-89b2-3fc8d318c40a)
+
+![image](https://github.com/user-attachments/assets/9bded792-53d5-4d74-9b2d-773a1af1430b)
+
+![image](https://github.com/user-attachments/assets/92f67ab5-8539-4844-8723-7eb8ec4b4a65)
+
+![image](https://github.com/user-attachments/assets/ae5b7ba0-6c45-4d2b-99c3-119f131b40e3)
+
+![image](https://github.com/user-attachments/assets/ef317f26-84cf-48f8-aa79-cf5bb79c3c66)
+
+##### Positionering
+Ik had verwacht dat de ondertiteling in het midden Darice het meest zou aanspreken, op eerste blik vond ze interessant dat het in het midden stond en ook nog doorzichtig was waardoor je gedeeltelijk nog de achtergrond kon zien. Maar Darice vond dat het te veel van het beeld in neemt, vooral als er grotere zinnen op beeld staan.
+
+##### Font-size
+Voor de font-size vond Darice 1.6em de juiste verhouding, omdat het groot is en fijn is om te lezen. Ze gaf zelf tijdens de test-moment aan dat sans-serif fonts het fijnst lezen en zei dat Mona-Sans een van haar favoriete fonts is hiervoor.
+Zo gezegd zo gedaan heb ik er voor gekozen om Mona-Sans te implementeren, voor dat stukje persoonlijkheid van Darice.
+
+##### Contrast
+Qua contrast heb ik gekozen om wat donkerdere achtergrond kleuren te gebruiken, zodat de tekst duidelijk en opvallend blijft. Darice vertelde me dat het blauw wel goed is, maar dat ik moet oppassen dat ik straks niet een lichtblauw gebruik waardoor de captions weg zouden vallen, en groot gelijk heeft ze.
 
 
 #### Ontwikkeling
-
+Deze week heb ik de algemene style van de captions uitgewerkt, hieronder valt de achtergrond kleuren van de captions koppelen aan personen, de juiste lettertype grootte vinden voor leespret, de beste positie proberen te vinden voor de captions en het verder uitbreiden van de captions.
 
 
 
