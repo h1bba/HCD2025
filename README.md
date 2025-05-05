@@ -94,17 +94,29 @@ Qua contrast heb ik gekozen om wat donkerdere achtergrond kleuren te gebruiken, 
 #### Ontwikkeling
 Deze week heb ik de algemene style van de captions uitgewerkt, hieronder valt de achtergrond kleuren van de captions koppelen aan personen, de juiste lettertype grootte vinden voor leespret, de beste positie proberen te vinden voor de captions en het verder uitbreiden van de captions.
 
+## Week 3
+
+#### Voorbereiding
+
+Timestamps, langer de captions blijven houden.
+Namen invoegen in de captions.
+Explain-text in beeld.
+Achtergrond kleur aanpassen wanneer muziek invaagt.
+
+#### Ontwikkeling
+
+timestamps voor de sounds.
+
+## Week 4
+
+#### Voorbereiding
+
+Beatpulse op de soft piano
 
 
+#### Ontwikkeling
 
-<details>
-  <summary>
-    Week 3
-  </summary>
-</details>
+#### Wat had ik verbeterd als ik nog verder zou uitbreiden?
+De explain-text op de positie van het geluid proberen te testen.
+Particles op de achtergrond die bijvoorbeeld het geluid van de wind zou volgen
 
-<details>
-  <summary>
-    Week 3
-  </summary>
-</details>
