@@ -93,26 +93,43 @@ Qua contrast heb ik gekozen om wat donkerdere achtergrond kleuren te gebruiken, 
 
 #### Ontwikkeling
 Deze week heb ik de algemene style van de captions uitgewerkt, hieronder valt de achtergrond kleuren van de captions koppelen aan personen, de juiste lettertype grootte vinden voor leespret, de beste positie proberen te vinden voor de captions en het verder uitbreiden van de captions.
+foto
 
 ## Week 3
 
 #### Voorbereiding
 
-Timestamps, langer de captions blijven houden.
-Namen invoegen in de captions.
-Explain-text in beeld.
-Achtergrond kleur aanpassen wanneer muziek invaagt.
+Ik had vorige week tijdens het testmoment een idee gekregen om een feedforward te implementeren voor de captions. Als ik de woorden die nog niet zijn uitgesproken een stukje transparant maak, dan kan Darice alvast vooruit lezen en begrijpen of er een bepaalde intonatie bevind in de zin. Op deze manier kan ze sneller weer focussen op wat er gebeurt op het scherm.
+
+Darice vertelde ook dat de ondertiteling soms snel voorbij gaan dus heb ik getest met de timestamp langer doortrekken totdat de volgende zin begint, zo is er ruimte om eerst op het beeld te focussen als er iets interessants gebeurt en ietsjes later de ondertiteling te lezen. Dit maakt de switch tussen de 2 gecombineerd met de transparante feedforward captions een fijner kijkplezier en de rode draad makkelijker te volgen.
+
+Tijdens het testmoment vroeg een klasgenoot of Darice het fijn vind om de namen van wie spreekt te zien in de ondertiteling. Op deze manier dus "Thomas: Hello!" vs "Hello!", Darice gaf aan dat de namen benoemen wel een goed idee is maar dat het niet in de weg moet zitten. Hiervoor heb ik een goed voorbeeld voor kunnen bedenken. In mijn clip is er een moment dat Thomas in zichzelf praat en een preek houdt. Hiervoor heb ik zijn naam alleen in het begin van de zin laten zien, en de lange zinnen opgesplitst in meerdere captions, waardoor het duidelijk was dat Thomas nog aan het woord was.
+
+Zodra de soft piano begint te spelen in de achtergrond, wordt de achtergrond licht donkerblauw, zo weet Darice dat de piano een droevige toon is aan de hand van de kleur. Ik heb nu ook "Explain captions" zoals ik ze noem, dit legt uit wat er extra valt te horen in witte captions zoals "*soft sad piano start playing*".
+Om de tempo van de piano te voelen heb ik er voor gekozen na inspiratie van Vasilis om de achtergrond licht te syncen op de piano noten. Dit doe ik door de box-shadow een animatie geven waarin de blur groter en kleiner wordt, hierdoor krijg je een soort pulsation effect.
 
 #### Ontwikkeling
 
-timestamps voor de sounds.
+Captions feedforward implementatie door transparante text van te voren weer te geven.
+
+Captions timespan langer doorgetrokken zodat zinnen niet te snel voorbij gaan.
+
+Namen benoemd in de captions, en lang zinnen opgesplitst zonder de naam te herhalen.
+
+Explanation tekst op het scherm wanneer iemand *sobt* of als er bijvoorbeeld een piano klinkt.
+
+Achtergrond licht laten pulsen in sync op de piano noten.
+
+#### Bevindingen
+
+Darice vind de caption feedforward implementatie goed, al zegt ze dat de opacity niet onder de 25% moet vallen omdat het dan niet valt te lezen, ik heb getest welke opacity zij het fijnst vind en we zijn uitgekomen op
 
 ## Week 4
 
 #### Voorbereiding
 
 Beatpulse op de soft piano
-
+explain text duidelijk maken dat het hoort bij de piano
 
 #### Ontwikkeling
 
