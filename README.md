@@ -93,7 +93,15 @@ Qua contrast heb ik gekozen om wat donkerdere achtergrond kleuren te gebruiken, 
 
 #### Ontwikkeling
 Deze week heb ik de algemene style van de captions uitgewerkt, hieronder valt de achtergrond kleuren van de captions koppelen aan personen, de juiste lettertype grootte vinden voor leespret, de beste positie proberen te vinden voor de captions en het verder uitbreiden van de captions.
-foto
+
+Ik heb deze SRT file gevonden met de captions wat het een stuk makkelijker maakt:
+
+[Bron](https://subtitlecat.com/subs/259/Odd.Thomas.2013.720p.BluRay.x264-%5BYTS.AM%5D-English.html)
+
+![image](https://github.com/user-attachments/assets/f3b60647-6c96-44a7-8fd2-aa2e8744d30e)
+
+
+
 
 ## Week 3
 
@@ -112,28 +120,64 @@ Om de tempo van de piano te voelen heb ik er voor gekozen na inspiratie van Vasi
 
 Captions feedforward implementatie door transparante text van te voren weer te geven.
 
+![ezgif com-video-to-gif-converter(2)](https://github.com/user-attachments/assets/76ae02c5-7749-4121-b5e1-3cc20ca60984)
+
 Captions timespan langer doorgetrokken zodat zinnen niet te snel voorbij gaan.
 
 Namen benoemd in de captions, en lang zinnen opgesplitst zonder de naam te herhalen.
 
 Explanation tekst op het scherm wanneer iemand *sobt* of als er bijvoorbeeld een piano klinkt.
 
-Achtergrond licht laten pulsen in sync op de piano noten.
+Achtergrond licht laten pulsen in sync op de piano noten, de grootte van de pulse bepalen, dat het opvallend genoeg is, maar niet in de weg zit of een epilepsie aanval veroorzaakt.
+
+![ezgif com-optimize(2)](https://github.com/user-attachments/assets/b13a602a-0483-45cb-b75d-b7ad89b02132)
+
 
 #### Bevindingen
 
-Darice vind de caption feedforward implementatie goed, al zegt ze dat de opacity niet onder de 25% moet vallen omdat het dan niet valt te lezen, ik heb getest welke opacity zij het fijnst vind en we zijn uitgekomen op
+Darice vind de caption feedforward implementatie een goed idee, al zegt ze dat de opacity niet onder de 25% moet vallen omdat het dan niet valt te lezen, ik heb getest welke opacity zij het fijnst vind en we zijn uitgekomen op 0.5/50%.
+
+De captions die langer doorgaan vind ze ook een slim idee, ze vind het fijn dat ze langer doortrekken inplaats van eerder begint, waardoor momenten toch spannend kunnen blijven.
+
+Darice vind dat ik de namen goed benoem wanneer het nodig is en duidelijk houdt wie er aan het woord is.
+
+Darice begreep in eerste instantie niet dat de achtergrond licht die pulseert gekoppeld staat aan de soft piano, ze geeft aan als oplossing dat ik ook de tekst dezelfde blauw kan maken om de link duidelijk te maken.
+
+Darice vind de explanation text fijn en op de juiste positie. De ondertiteling zit onder het beeld, en de explanation text in het beeld, maar onderin, waardoor het niet te veel aandacht neemt of vecht met zichtbaarheid.
+
+Na uitleg dat het blauwe pulseert op de piano vond Darice het een stuk duidelijker en begreep ook de blauwe kleur meer. Ze vind het een goed idee om dit te combineren zodat ze het gevoel van de "aura" in de scene heeft.
+
+
 
 ## Week 4
 
 #### Voorbereiding
 
-Beatpulse op de soft piano
-explain text duidelijk maken dat het hoort bij de piano
+Deze week focus ik mij op het product 1 geheel maken en het overal constant te hebben.
+
+Ik heb de beatpulses gemarkeerd en handmatig op elke piano noot timestamp toegevoegd en heftigere noten een hogere blur gegeven, waardoor je iets meer meekrijgt dat de scene dramatisch begint te worden.
+
+Ik heb de *sad piano music starts playing* blauw gemaakt zoals Darice had gezegd, nu is de link duidelijk tussen de achtergrond licht en het muziek.
+
+Ik heb nog wat final touches toegevoegd met wat timestamps die elkaar net overlaptten.
 
 #### Ontwikkeling
 
+Uitbreiding beatpulses & meerdere variaties van de beatpulse.
+
+Explain text blauw gemaakt zodat de link tussen de muziek en het achtergrond licht duidelijk te maken.
+
+#### Bevindingen
+
+Darice vind het goed dat ik grotere pulses heb toegevoegd en *sad piano music intensifies* wanneer de pulses groter worden, zo heeft ze het gevoel dat het intenser begint te worden. Ze vind het algeheel een mooi rond product en vindt dat ik goed naar haar feedback heb geluistert voor haar gevoel, en ook de mijne :)
+
 #### Wat had ik verbeterd als ik nog verder zou uitbreiden?
-De explain-text op de positie van het geluid proberen te testen.
-Particles op de achtergrond die bijvoorbeeld het geluid van de wind zou volgen
+
+Ik denk dat momenten zoals *sob* beter bij de locatie gestopt kan worden waar het gebeurt. Momenteel is hij statisch onderin, wat over het algemeen goed is, maar voor bepaalde momenten zou het wel handig zijn om het op de locatie van het geluid te plaatsen.
+
+Ik denk dat ik het wind op het einde nog kon visualiseren door particles op de achtergrond te doen die bijvoorbeeld het geluid van de wind zou volgen.
+
+Ik zou ook willen testen met wat scene's, ik heb het gevoel dat ik achteraf beter zelf een scene kon kiezen zoals Jaws, of The Shining, meer horror thema, daar lijken goede voorbeelden in te zitten voor het gebruik van deze effecten realiseer ik mij na deze ervaring op gedaan te hebben.
+
+**Bedankt voor het lezen**
 
