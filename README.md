@@ -151,6 +151,8 @@ Na uitleg dat het blauwe pulseert op de piano vond Darice het een stuk duidelijk
 
 ## Week 4
 
+Deze week is Darice afwezig en neemt Maurie het over, vanaf dit punt is Darice dus Maurie.
+
 #### Voorbereiding
 
 Deze week focus ik mij op het product 1 geheel maken en het overal constant te hebben.
